@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operações</title>
+    <style>
+        #par,
+        #impar {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Olá!</h1>
+    <p>Soma:</p>
+    <p>Subtração:</p>
+    <p>Divisão:</p>
+    <p>Multiplicação:</p>
+    <p id="par">Par</p>
+    <p id="impar">Impar</p>
+</body>
+<script>
+    let num1 = prompt("Digite um número:");
+    let num2 = prompt("Digite um número:");
+
+    const soma = parseInt(num1) + parseInt(num2);
+    const subtracao = parseInt(num1) - parseInt(num2);
+    const divisao = parseInt(num1) / parseInt(num2);
+    const multiplicacao = parseInt(num1) * parseInt(num2);
+</script>
+
+</html>
